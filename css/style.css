@@ -1,0 +1,325 @@
+p,ul,h3,h2{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Inter',serif;
+}
+
+.contanier{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header{
+    background-image: linear-gradient(to right,rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)),url(../img/avatar-2.png);
+    background-repeat: no-repeat;
+    padding: 39px 0px;
+    border-bottom: 3px solid #FFFFFF;
+}
+
+.nav-left-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 186px;
+    height: 72px;
+    margin-right: 168px;
+}
+
+.nav-right-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1032px;
+    margin: 0 auto;
+}
+
+.nav-list-item {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.2;
+    width: 325px;
+    margin-right: 212px;
+}
+
+.nav-list a {
+    color: #FFFFFF;
+}
+
+.nav-list a:hover, .nav-list a:focus{
+    color: rgba(148, 207, 255, 1);
+    font-weight: 600;
+}
+
+.nav-btn{
+    font-family: 'Headland One', sans-serif;
+    margin-right: 49px;
+    width: 141px;
+    height: 42px;
+    background: #0B0E66;
+    border: 2px solid #26C7EA;
+    border-radius: 35px 0px;
+    color: #26C6EA;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 9px 38px 7px;
+}
+
+.switcher{
+    margin: 0px 10px;
+}
+
+.language{
+    font-family: 'Hammersmith One', serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.hero {
+    width: 1440px;
+height: 740px;
+background-image: url(../img/avatar-4.png);
+padding: 180px 204px 179px;
+}
+.container-hero-left {
+justify-content: space-between;
+display: flex;
+width: 1032px;
+height: 559px;
+}
+.left-hero{
+width: 376px;
+height: 381px;
+}
+.text-hero{
+    font-family: 'Inter', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.button-hero{
+    font-family: 'Headland One', sans-serif;
+    background: #0B0E66;
+    border: 3px solid #26C7EA;
+    border-radius: 45px 0px;
+    width: 260px;
+    height: 80px;
+    margin-top: 42px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #26C7EA;
+}
+.right-hero {
+    width: 50px;
+height: 141px;
+margin-top: 120px;
+margin-bottom: 298px;
+}
+.contact-hero-list {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.contact-hero {
+    padding-bottom:  27px; ;
+}
+.quotes {
+    height: 350px; 
+}
+.contant-quotes {
+    
+    text-align:Center;
+    padding: 75px 0px 10px;
+}
+.quotes-text {
+margin: 0;
+color: #0A3853;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+}
+.jeik-salli {
+display: block;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+
+height: 29px;
+margin: 16px 0 8px;
+}
+.dragon {
+    margin: 8px 0 10px; 
+}
+.treiler {
+    background-image: url(../img/avatar-7.png);
+    height: 741px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    padding: 330px 590px;
+    width: 1440px;
+}
+.treiler-bth {
+    padding: 25px 20px 25px 19px;
+    width: 260px;
+    height: 80px;
+    background: #0B0E66;
+    border: 3px solid #26C7EA;
+    border-radius: 45px 0px;
+    font-family: 'Headland One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #26C7EA;
+}
+.avatar-language {
+    width: 1440px;
+    height: 704px;
+    padding: 58px 203px 57px 204px;
+    background-image: url(../img/avatar-10.png);
+}
+.avatar-language-parag {    
+color: #141414;
+font-family: 'HeadlandOne' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+margin-bottom: 45px;
+text-align: center;
+}
+.avatar-language-list{     
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.avatar-language-item{
+    background: rgba(255, 255, 255, 0.7);
+    width: 320px;
+    height: 240px;
+    padding: 36px 0px;
+}
+.avatar-language-item:nth-child(-n+3){
+    margin: 0px 0px 24px;
+}
+
+
+
+.box-text{
+    font-family: 'Headland One', sans-serif;
+    height: 24px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #141414;
+    text-align: center;
+    margin-bottom:40px;
+}
+
+.black{
+    font-family: 'Headland One', serif;
+    color: black;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.box-img{
+    display: block;
+    width: 152px;
+    height: 40px;
+    margin: 0 auto 40px;
+}
+.footer {
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../img/avatar-2.png);
+    padding: 35px 0px 25px 204px;
+    height: 223px;
+    display: flex;
+}
+.footer-left {
+margin-top: 42px;
+margin-bottom: 51px;
+}
+.logo-footer {
+    width: 183px;
+height: 70px;
+}
+.box-footer {
+    margin: 0px 80px;
+    border: 2px solid #FFFFFF;
+}
+.footer-right {
+        height: 120px;
+        padding-top: 45px;   
+}
+.contact-link {
+height: 24px;
+color: #FFFFFF;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-decoration: none;
+}
+.contact-link:nth-child(-n+1){
+    margin-bottom: 16px;
+}
+.contact-link-vector{
+    margin: 0px 20px 6px;
+}
+.footer-text {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+width: 348px;
+height: 17px;
+text-align: center;
+margin: 37px 0px 25px 110px;
+}
