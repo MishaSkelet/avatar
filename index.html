@@ -62,30 +62,7 @@
                   Приєднатися до клану
                 </button>
               
-              <div class="backdrop">
-<form class="modal-form" >
-  <button class="close-btn" type="button">
-    <svg class="close-svg" width="14" height="14" >
-      <use href="./symbol-defs.svg#icon-krest">
-      </use>
-    </svg>
-  </button>
-  <ul class="modal-list">
-    <li class="modal-list-item">
-<label class="modal-label">
-  Name <input class="modal-input" type="name">
-</label>
-    </li>
-    <li class="modal-list-item">
-      <label class="modal-label">
-        Email <input class="modal-input" type="email">
-      </label>
-          </li>
-  </ul>
-  <button></button>
-</form>
-
-              </div>
+              
             </div>
               <div class="right-hero">
                 <ul class="contact-hero-list">
@@ -180,7 +157,73 @@
           <p class="footer-text">©2023 Avatar: The Way Of Water. All rights reserved</p>
         </div>
       </footer>
+      <div class="backdrop is-hidden" data-form-backdrop>
+        <form action="#" class="modal-form">
+          <button class="close-bth" type="button" data-close-form-modal>
+            <svg class="close-svg" width="14px" height="14px">
+              <use href="./symbol-defs.svg#icon-krest"></use>
+            </svg>
+          </button>
+          <ul class="modal-list">
+            <li class="modal-list-item">
+              <label class="modal-label"
+                >Ім'я
+                <input type="text" class="modal-input" required />
+              </label>
+            </li>
+            <li class="modal-list-item">
+              <label class="modal-label"
+                >Email
+                <input type="email" class="modal-input" required />
+              </label>
+            </li>
+          </ul>
+          <button class="join-bth" type="button" data-open-info-modal>
+            Приєднатися до клану
+          </button>
+        </form>
+      </div>
+      <div class="backdrop is-hidden" data-info-backdrop>
+        <section class="info-modal">
+          <button class="close-bth" type="button" data-close-info-modal>
+            <svg class="close-svg-info" width="14px" height="14px">
+              <use href="./symbol-defs.svg#icon-cross"></use>
+            </svg>
+          </button>
+          <h3 class="info-title">Вітаємо у нашому клані</h3>
+          <p class="info-text">
+            Твій Банші вже в дорозі.<br />Скоро побачимось на Пандорі.
+          </p>
+        </section>
+      </div>
+      <div class="backdrop is-hidden" data-video-backdrop>
+        <div class="form-treiler">
+          <button class="close-bth" type="button" data-close-video>
+            <svg class="close-svg" width="14px" height="14px">
+              <use href="./symbol-defs.svg#icon-cross"></use>
+            </svg>
+          </button>
+          <h2 class="form-treiler-title">трейлер</h2>
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/E8Qe0vS_I3I" title="АВАТАР: ШЛЯХ ВОДИ | Офіційний український трейлер" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <!-- <button class="form-language" data-open-engvideo>English</button> -->
+        </div>
+      </div>
+      <!-- <div class="backdrop is-hidden" data-video-engbackdrop>
+        <div class="engform-treiler">
+          <button class="close-bth" type="button" data-close-engvideo>
+            <svg class="close-svg" width="14px" height="14px">
+              <use href="./symbol-defs.svg#icon-cross"></use>
+            </svg>
+          </button>
+          <h2 class="form-treiler-title">Treiler</h2>
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/d9MyW72ELq0" title="Avatar: The Way of Water | Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <button class="form-language" data-open-ukrvideo="">Українська</button>
+        </div>
+      </div> -->
     </div>
+    <script src="./modal-form.js"></script>
+  </body>
+</html>
     <div class="backdrop is-hidden" data-form-backdrop>
       <form action="#" class="modal-form">
         <button class="close-bth" type="button" data-close-form-modal>
